@@ -11,8 +11,8 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-[#E9E9E9]">
-    <header>
+  <body>
+    <header class="bg-gradient-to-b from-[#e1e1e1] top-white">
       <nav>
         <div class="navbar xl:px-32 lg:px-10 px-4">
           <div class="navbar-start">
@@ -39,9 +39,7 @@
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 md:pr-20 text-[#737373]">
               <li>
-                <a class="hover:bg-transparent hover:text-[#494949]">
-                  Home
-                </a>
+                <a class="hover:bg-transparent hover:text-[#494949]"> Home </a>
               </li>
               <li>
                 <a class="hover:bg-transparent hover:text-[#494949]">
@@ -54,9 +52,7 @@
                 </a>
               </li>
               <li>
-                <a class="hover:bg-transparent hover:text-[#494949]">
-                  Blogs
-                </a>
+                <a class="hover:bg-transparent hover:text-[#494949]"> Blogs </a>
               </li>
               <li>
                 <a class="hover:bg-transparent hover:text-[#494949]">
@@ -66,7 +62,9 @@
             </ul>
           </div>
           <div class="navbar-end gap-4">
-            <button class="btn btn-ghost btn-circle bg-white hidden md:flex">
+            <button
+              class="btn btn-ghost btn-circle bg-white border-[#e9e9e9] hidden md:flex"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -82,7 +80,9 @@
                 />
               </svg>
             </button>
-            <button class="btn btn-ghost btn-circle bg-white hidden md:flex">
+            <button
+              class="btn btn-ghost btn-circle bg-white border-[#e9e9e9] hidden md:flex"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -98,7 +98,9 @@
                 />
               </svg>
             </button>
-            <a class="btn bg-[#ABEF5F] rounded-full border-none hidden md:flex">
+            <a
+              class="btn bg-[#ABEF5F] rounded-full border-none hidden md:flex font-extrabold text-lg"
+            >
               Book Consult
               <div class="rounded-full bg-black p-1">
                 <svg
@@ -118,11 +120,25 @@
               </div>
             </a>
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-white lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle bg-white border-[#e9e9e9] lg:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
                 </svg>
-                
               </div>
               <ul
                 tabindex="0"
@@ -193,6 +209,49 @@
           </div>
         </div>
       </nav>
+      <section class="my-10">
+        <div class="hero min-h-fit">
+          <div class="hero-content text-center">
+            <div class="max-w-screen">
+              <div class="max-w-lg mx-auto mb-5">
+                <img src="assets/banner.png" alt="" />
+              </div>
+              <div class="max-w-lg lg:max-w-5xl">
+                <h1 class="text-4xl lg:text-6xl font-extrabold">
+                  A barn house of this design has a striking appearance
+                </h1>
+                <p class="py-6 lg:text-lg">
+                  The barn house captivates with its blend of rustic charm and
+                  modern sophistication, featuring weathered wood, sleek metal
+                  accents, and large windows that flood the space with natural
+                  light.
+                </p>
+                <a
+                  class="btn bg-[#ABEF5F80] border-[#ABEF5F] border rounded-full text-xl text-[#212121] w-full md:w-fit"
+                >
+                  View Details
+                  <div class="rounded-full bg-[#ABEF5F] p-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="black"
+                      class="size-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
