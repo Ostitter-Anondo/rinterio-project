@@ -330,7 +330,7 @@
         </div>
       </section>
       <section
-        class="bg-white rounded-3xl w-11/12 lg:w-10/12 mx-auto my-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-8 p-8 text-[#494949]"
+        class="bg-white rounded-3xl w-11/12 lg:w-10/12 mx-auto my-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-8 p-8 text-[#494949]"
       >
         <div class="flex flex-col items-center w-48 gap-2">
           <svg
@@ -407,7 +407,9 @@
         </div>
       </section>
       <section class="my-6 px-8 md:my-24">
-        <div class="flex flex-col gap-6 items-center text-center my-6">
+        <div
+          class="flex flex-col gap-6 items-center text-center my-6 max-w-2xl mx-auto"
+        >
           <p class="btn btn-circle w-fit px-6 bg-white font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -434,7 +436,7 @@
           </p>
         </div>
         <div
-          class="grid md:grid-cols-2 lg:grid-cols-4 w-11/12 xl:w-9/12 gap-6 mx-auto"
+          class="grid md:grid-cols-2 xl:grid-cols-4 w-11/12 xl:w-9/12 gap-6 mx-auto"
         >
           <div
             class="card bg-[#e7c1d3] w-full flex flex-row items-start xl:items-center gap-6 p-6"
@@ -490,8 +492,10 @@
           </div>
         </div>
       </section>
-      <section class="my-6 px-8 md:my-24">
-        <div class="flex flex-col gap-6 items-center text-center my-6">
+      <section class="my-6 px-8 md:my-24 bg-white py-10 pb-16">
+        <div
+          class="flex flex-col gap-6 items-center text-center my-6 max-w-2xl mx-auto"
+        >
           <p
             class="btn btn-circle w-fit px-6 bg-[#acef5f33] border-[#acef5f33] hover:bg-[#acef5f] font-bold"
           >
@@ -519,8 +523,12 @@
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
         </div>
-        <div class="grid grid-cols-1 place-items-center mx-auto gap-6 md:grid-cols-2 md:w-10/12 xl:grid-cols-9">
-          <div class="order-1 card bg-white border-[#e9e9e9] w-10/12 p-5 gap-6 md:flex-row md:col-span-2 md:w-full xl:col-span-6 xl:h-64">
+        <div
+          class="grid grid-cols-1 place-items-center mx-auto gap-6 md:grid-cols-2 md:w-10/12 xl:grid-cols-9"
+        >
+          <div
+            class="order-1 card bg-white border-2 border-[#e9e9e9] w-10/12 p-5 gap-6 md:flex-row md:col-span-2 md:w-full xl:col-span-6 xl:h-64"
+          >
             <img src="assets/img1.png" alt="Shoes" class="rounded-lg" />
             <div class="card-body items-start text-left px-0 gap-6">
               <h2 class="card-title text-[#494949]">Commercial</h2>
@@ -531,7 +539,7 @@
               </p>
               <div class="card-actions">
                 <button
-                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0"
+                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0 md:text-xl"
                 >
                   View Details
                   <div class="rounded-full bg-[#ABEF5F] p-1">
@@ -554,13 +562,19 @@
               </div>
             </div>
           </div>
-          <div class="order-2 card bg-white border-[#e9e9e9] w-10/12 md:w-full p-5 xl:col-span-3 xl:h-64">
+          <div
+            class="order-2 card bg-white border-2 border-[#e9e9e9] w-10/12 md:w-full p-5 xl:col-span-3 xl:h-64"
+          >
             <img src="assets/img2.png" alt="Shoes" class="rounded-lg h-52" />
           </div>
-          <div class="order-3 card bg-white border-[#e9e9e9] w-10/12 md:w-full p-5 xl:hidden">
+          <div
+            class="order-3 card bg-white border-2 border-[#e9e9e9] w-10/12 md:w-full p-5 xl:hidden"
+          >
             <img src="assets/img5.png" alt="Shoes" class="rounded-lg h-52" />
           </div>
-          <div class="order-4 card bg-white border-[#e9e9e9] w-10/12 p-5 gap-6 md:flex-row md:col-span-2 md:w-full xl:col-span-5 xl:h-64 xl:order-5">
+          <div
+            class="order-4 card bg-white border-2 border-[#e9e9e9] w-10/12 p-5 gap-6 md:flex-row md:col-span-2 md:w-full xl:col-span-5 xl:h-64 xl:order-5"
+          >
             <img src="assets/img4.png" alt="Shoes" class="rounded-lg" />
             <div class="card-body items-start text-left px-0 gap-6">
               <h2 class="card-title text-[#494949]">Commercial</h2>
@@ -571,7 +585,7 @@
               </p>
               <div class="card-actions">
                 <button
-                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0"
+                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0 md:text-xl"
                 >
                   View Details
                   <div class="rounded-full bg-[#ABEF5F] p-1">
@@ -594,15 +608,361 @@
               </div>
             </div>
           </div>
-          <div class="order-5 card bg-white border-[#e9e9e9] w-10/12 xl:h-64 md:w-full p-5 xl:col-span-2 xl:order-4">
+          <div
+            class="order-5 card bg-white border-2 border-[#e9e9e9] w-10/12 xl:h-64 md:w-full p-5 xl:col-span-2 xl:order-4"
+          >
             <img src="assets/img3.png" alt="Shoes" class="rounded-lg h-52" />
           </div>
-          <div class="order-6 card bg-white border-[#e9e9e9] w-10/12 md:w-full p-5 xl:col-span-2 xl:h-64">
+          <div
+            class="order-6 card bg-white border-2 border-[#e9e9e9] w-10/12 md:w-full p-5 xl:col-span-2 xl:h-64"
+          >
             <img src="assets/img5.png" alt="Shoes" class="rounded-lg h-52" />
           </div>
         </div>
       </section>
+      <section class="mt-6 px-8 md:mt-24 pb-16">
+        <div
+          class="flex flex-col gap-6 items-center text-center my-6 max-w-2xl mx-auto"
+        >
+          <p
+            class="btn btn-circle w-fit px-6 bg-[#acef5f33] border-[#acef5f33] hover:bg-[#acef5f] font-bold"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+            Rinterio News
+          </p>
+          <h1 class="text-2xl xl:text-5xl md:text-3xl font-bold">
+            Read Our Articles and News
+          </h1>
+          <p class="py-3 text-[#494949]">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 max-w-[80%] mx-auto">
+          <div
+            class="order-1 card bg-white border-[#e9e9e9] w-[70%] mx-auto p-5 gap-6 md:w-[95%] md:flex-row xl:flex-col"
+          >
+            <img src="assets/article1.png" alt="Shoes" class="rounded-lg" />
+            <div class="card-body items-start text-left px-0 py-0 gap-6 my-0">
+              <div class="flex gap-2 text-[#727272]">
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+                  <p>July14, 2024</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class="card-title text-[#494949]">
+                How to choose the furniture right of your home.
+              </h2>
+              <p class="text-[#737373]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0 md:text-xl"
+                >
+                  Read More
+                  <div class="rounded-full bg-[#ABEF5F] p-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="order-1 card bg-white border-[#e9e9e9] w-[70%] mx-auto p-5 gap-6 md:w-[95%] md:flex-row xl:flex-col"
+          >
+            <img src="assets/article2.png" alt="Shoes" class="rounded-lg" />
+            <div class="card-body items-start text-left px-0 py-0 gap-6 my-0">
+              <div class="flex gap-2 text-[#727272]">
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+                  <p>July14, 2024</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class="card-title text-[#494949]">
+                How to choose the furniture right of your home.
+              </h2>
+              <p class="text-[#737373]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0 md:text-xl"
+                >
+                  Read More
+                  <div class="rounded-full bg-[#ABEF5F] p-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="order-1 card bg-white border-[#e9e9e9] w-[70%] mx-auto p-5 gap-6 md:w-[95%] md:flex-row xl:flex-col"
+          >
+            <img src="assets/article3.png" alt="Shoes" class="rounded-lg" />
+            <div class="card-body items-start text-left px-0 py-0 gap-6 my-0">
+              <div class="flex gap-2 text-[#727272]">
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                    />
+                  </svg>
+                  <p>July14, 2024</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class="card-title text-[#494949]">
+                How to choose the furniture right of your home.
+              </h2>
+              <p class="text-[#737373]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="flex items-center gap-3 hover:underline font-extrabold text-[#212121] p-0 md:text-xl"
+                >
+                  Read More
+                  <div class="rounded-full bg-[#ABEF5F] p-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[url('assets/bg.jpg')] bg-cover py-16 border-8 border-white">
+        <div
+          class="flex flex-col gap-6 items-center text-center pt-12 pb-10 max-w-2xl mx-auto"
+        >
+          <p
+            class="btn btn-circle w-fit px-6 bg-[#acef5f33] border-[#acef5f33] hover:bg-[#acef5f] font-bold"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+            Let`s Connect
+          </p>
+          <h1 class="text-2xl xl:text-5xl md:text-3xl font-bold">
+            Let`s Discuss Next Project
+          </h1>
+          <p class="py-3 text-[#494949]">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <form
+          action=""
+          class="grid gap-6 px-6 grid-cols-1 mx-auto max-w-[60rem] md:grid-cols-2 md:px-12"
+        >
+          <input
+            type="text"
+            placeholder="First Name*"
+            required
+            class="input w-full rounded-full"
+          />
+          <input
+            type="text"
+            placeholder="Last Name*"
+            required
+            class="input w-full rounded-full"
+          />
+          <input
+            type="text"
+            placeholder="Phone Number*"
+            required
+            class="input w-full rounded-full"
+          />
+          <input
+            type="text"
+            placeholder="Email Address*"
+            required
+            class="input w-full rounded-full"
+          />
+          <textarea
+            class="textarea w-full h-72 text-lg rounded-3xl md:col-span-2"
+            required
+            placeholder="Write your message here"
+          ></textarea>
+          <button
+            type="submit"
+            class="btn bg-[#ABEF5F] hover:bg-[#ABEF5Faa] border-[#ABEF5F] border rounded-full text-xl text-[#212121] w-full md:col-span-2"
+          >
+            Send Mail
+            <div class="rounded-full bg-black p-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="white"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </div>
+          </button>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+    </footer>
   </body>
 </html>
